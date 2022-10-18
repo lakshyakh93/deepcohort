@@ -3,10 +3,10 @@
 Data slicing / Cohort creation is an important task in a lot of applications including ML systems, Business metric understanding and RCA operations. 
 
 ## Model Analysis
-Cohort creation is important in ML systems, in understanding how model performs on different subset of data. With the subset space being exponential, DeepCohort helps in extracting meaningfula and most impactful subsets to our target variable. Right now it builds a regression decision tree for this. 
+Cohort creation is important in ML systems, in understanding how model performs on different subset of data. With the subset space being exponential, DeepCohort helps in extracting meaningful and most impactful subsets to our target variable. Right now it builds a regression decision tree for this. 
 
 ## Root Cause Analysis Business Metric
-This tool can also be used to identify most impactful cohorts to your metrics. For example, it can iudentify which subgroup of ypyur data is contributing most to your Revenue increase. Again Naive way to do is to look at all subsets of data, but as discussed, the space is exponetial. 
+This tool can also be used to identify most impactful cohorts to your metrics. For instance, it can identify which subgroup of your data is contributing most to the Revenue increase. Again Naive way is to look at all subsets of data, but as discussed, that space is exponential. 
 
 ### Note
 This package outputs a Tree as an image. 
