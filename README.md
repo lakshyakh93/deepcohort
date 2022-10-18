@@ -19,6 +19,7 @@ pip install deepcohort
 ```
 #### Code
 ```python
+from deepcohort.src import tree_cohort
 # df ->  Pandas data,  'Sales' -> target/ Metric column name
 cohort = tree_cohort.Getcohort(df, 'Sales')
 
